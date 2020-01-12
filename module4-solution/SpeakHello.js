@@ -8,7 +8,7 @@
 // See Lecture 52, part 1
 // var helloSpeaker =
 var helloSpeaker = {};
-helloSpeaker.name = names[];
+
 
 
 // DO NOT attach the speakWord variable to the 'helloSpeaker' object.
