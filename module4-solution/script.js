@@ -45,7 +45,7 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 // See Lecture 50, part 1
 /* fill in parts of the 'for' loop to loop over names array */
 for (var i=0; i<names.lenght; i++) {
-
+  helloSpeaker.speak(names[i]);
   // STEP 11:
   // Retrieve the first letter of the current name in the loop.
   // Use the string object's 'charAt' function. Since we are looking for
@@ -70,6 +70,7 @@ for (var i=0; i<names.lenght; i++) {
   }
 }
 
-helloSpeaker.speak();
+
+
 })();
 
