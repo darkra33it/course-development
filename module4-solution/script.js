@@ -63,10 +63,10 @@ for (var i=0; i<names.lenght; i++) {
   // name in the loop.
   if (firstletter==J || firstletter.toLowerCase()==j ) {
     // byeSpeaker.xxxx
-    byeSpeaker.name;
+    byeSpeaker.speak();
   } else {
     // helloSpeaker.xxxx
-    helloSpeaker.name;
+    helloSpeaker.speak();
   }
 }
 
