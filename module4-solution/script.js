@@ -45,7 +45,7 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 // See Lecture 50, part 1
 /* fill in parts of the 'for' loop to loop over names array */
 for (var i=0; i<names.lenght; i++) {
-  helloSpeaker.speak(names[i]);
+  
   // STEP 11:
   // Retrieve the first letter of the current name in the loop.
   // Use the string object's 'charAt' function. Since we are looking for
@@ -54,14 +54,14 @@ for (var i=0; i<names.lenght; i++) {
   // to lower case character 'j' afterwards.
   // Look up these methods on Mozilla Developer Network web site if needed.
   // var firstLetter =
-  var firstLetter =  names[i].charAt(0);
+  var firstLetter =  names[i].charAt(0).toLowerCase();
 
   // STEP 12:
   // Compare the 'firstLetter' retrieved in STEP 11 to lower case
   // 'j'. If the same, call byeSpeaker's 'speak' method with the current name
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
-  if (firstletter==J || firstletter.toLowerCase()==j ) {
+  if (firstletter==="j" ) {
     // byeSpeaker.xxxx
     byeSpeaker.speak(names[i]);
   } else {
@@ -69,7 +69,7 @@ for (var i=0; i<names.lenght; i++) {
     helloSpeaker.speak(names[i]);
   }
 }
-
+    
 
 
 })();
